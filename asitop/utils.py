@@ -46,7 +46,7 @@ def run_powermetrics_process(timecode, nice=10, interval=1000):
     #ver, *_ = platform.mac_ver()
     #major_ver = int(ver.split(".")[0])
     for tmpf in glob.glob("/tmp/asitop_powermetrics*"):
-        os.remove(tmpf)
+        os.system(f"sudo rm {tmpf}")
     try:
         output_file_flag = "-o"
         command = " ".join([
