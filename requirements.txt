@@ -1,0 +1,9 @@
+altgraph==0.17.2
+blessed==1.19.1
+dashing==0.1.0
+macholib==1.15.2
+psutil==5.9.0
+pyinstaller==4.8
+pyinstaller-hooks-contrib==2022.0
+six==1.16.0
+wcwidth==0.2.5
